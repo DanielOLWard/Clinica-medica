@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.3" pages="2">
+  <diagram name="Modelo Conceitual " id="J8-NPSaki1q0BmcJZ0uH">
+    <mxGraphModel dx="908" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-2" value="Medico" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="94" y="122" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-4" value="Paciente" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="654" y="122" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="csv1PI0MtgJF5nKX8j9s-5" target="csv1PI0MtgJF5nKX8j9s-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="csv1PI0MtgJF5nKX8j9s-5" target="csv1PI0MtgJF5nKX8j9s-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-5" value="Consulta" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="374" y="122" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="csv1PI0MtgJF5nKX8j9s-6" target="csv1PI0MtgJF5nKX8j9s-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-6" value="Localidade" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="374" y="322" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;endFill=1;" edge="1" parent="1" source="csv1PI0MtgJF5nKX8j9s-7" target="csv1PI0MtgJF5nKX8j9s-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-7" value="Possui" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="214" y="112" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="csv1PI0MtgJF5nKX8j9s-14" target="csv1PI0MtgJF5nKX8j9s-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-14" value="Possui" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="494" y="112" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="csv1PI0MtgJF5nKX8j9s-4" target="csv1PI0MtgJF5nKX8j9s-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="csv1PI0MtgJF5nKX8j9s-18" target="csv1PI0MtgJF5nKX8j9s-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-18" value="Possui" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="354" y="212" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-22" value="(1, 1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="169" y="110" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-23" value="(0, N)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="324" y="112" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-24" value="Consulta precisa ter um medico&lt;div&gt;E pode ter no maximo 1 medico&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="39" y="80" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-25" value="Medico nao precisa ter consulta&lt;div&gt;E pode ter infinitas consultas&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="254" y="70" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-26" value="(1, 1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="604" y="110" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-28" value="(0, N)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="110" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-29" value="(0, N)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="424" y="172" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="csv1PI0MtgJF5nKX8j9s-30" value="(1, 1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="424" y="280" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7_J1uimldzyK4QimDBlw" name="Modelo Lógico ">
+    <mxGraphModel dx="1044" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
